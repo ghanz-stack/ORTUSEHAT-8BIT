@@ -21,6 +21,8 @@
     <!-- Google Fonts: Retro Gameboy Pastel (Fase 1) — dipakai TERBATAS untuk judul/angka/tombol,
          body tetap pakai Inter di atas agar teks panduan medis tetap mudah dibaca -->
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
 
     <style>
         /* ======================================================================
@@ -335,8 +337,8 @@
                     <div class="w-16 h-16 border-4 border-[var(--retro-dark)] bg-[var(--retro-primary)] mx-auto flex items-center justify-center text-[var(--retro-surface)] shadow-[4px_4px_0px_0px_#000000]">
                         <i class="fa-solid fa-heart-pulse text-2xl animate-pulse"></i>
                     </div>
-                    <h1 class="font-pixel-title text-[13px] text-[var(--retro-dark)] tracking-tight leading-relaxed pt-2">Selamat Datang di Ortu Sehat</h1>
-                    <p class="text-sm text-slate-600 leading-relaxed px-2">Isi data diri Anda untuk menghitung IMT dan membuat rencana diet, puasa, serta latihan personal yang aman.</p>
+                    <h1 class="font-pixel-title font-bold">Ortu Sehat</h1>
+                    <p class="text-sm font-pixel-sub text-slate-700 leading-relaxed px-2">Isi data nya Pak/Bu nanti diliat Hasilnya, abis tuh lanjut program.</p>
                 </div>
 
                 <div class="space-y-4">
@@ -997,23 +999,23 @@
             <nav class="absolute bottom-5 left-4 right-4 bg-[var(--retro-accent)] border-4 border-[var(--retro-dark)] rounded-sm px-1 py-2 flex justify-around items-center z-50 shadow-[4px_4px_0px_0px_#000000]">
                 <button onclick="switchTab('summary')" id="nav-summary" class="nav-item active flex flex-col items-center gap-0.5 text-slate-600 hover:text-slate-700 transition-all px-1.5 py-1">
                     <i class="fa-solid fa-house-chimney text-base"></i>
-                    <span class="text-[12px] font-bold">Ringkasan</span>
+                    <span class="text-[11px] font-bold">Beranda</span>
                 </button>
                 <button onclick="switchTab('nutrition')" id="nav-nutrition" class="nav-item flex flex-col items-center gap-0.5 text-slate-600 hover:text-slate-700 transition-all px-1.5 py-1">
                     <i class="fa-solid fa-hourglass-half text-base"></i>
-                    <span class="text-[12px] font-bold">Puasa</span>
+                    <span class="text-[11px] font-bold">Puasa</span>
                 </button>
                 <button onclick="switchTab('calculator')" id="nav-calculator" class="nav-item flex flex-col items-center gap-0.5 text-slate-600 hover:text-slate-700 transition-all px-1.5 py-1">
                     <i class="fa-solid fa-calculator text-base"></i>
-                    <span class="text-[12px] font-bold">Kalori</span>
+                    <span class="text-[11px] font-bold">Kalori</span>
                 </button>
                 <button onclick="switchTab('workout')" id="nav-workout" class="nav-item flex flex-col items-center gap-0.5 text-slate-600 hover:text-slate-700 transition-all px-1.5 py-1">
                     <i class="fa-solid fa-dumbbell text-base"></i>
-                    <span class="text-[12px] font-bold">Latihan</span>
+                    <span class="text-[11px] font-bold">Latihan</span>
                 </button>
                 <button onclick="switchTab('milestones')" id="nav-milestones" class="nav-item flex flex-col items-center gap-0.5 text-slate-600 hover:text-slate-700 transition-all px-1.5 py-1">
                     <i class="fa-solid fa-chart-line text-base"></i>
-                    <span class="text-[12px] font-bold">Progres</span>
+                    <span class="text-[11px] font-bold">Progres</span>
                 </button>
             </nav>
 
